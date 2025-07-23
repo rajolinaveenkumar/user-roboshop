@@ -1,0 +1,4 @@
+apiVersion: v1
+name: user-chart
+version: 0.0.1
+description: This is the user component application
