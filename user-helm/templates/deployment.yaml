@@ -7,7 +7,7 @@ metadata:
     project: roboshop
     component: user
     environment: dev
-    tier: database
+    tier: backend
     code: user-roboshop-dev
 spec:
   replicas: 2
@@ -20,7 +20,7 @@ spec:
         project: roboshop
         component: user
         environment: dev
-        tier: database
+        tier: backend
         code: user-roboshop-dev
     spec:
       containers:
